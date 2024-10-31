@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
-  history: createWebHistory('/gh-pages-test/'),
+  history: createWebHistory('/MyWeb/'),
 
   routes: [
     {
