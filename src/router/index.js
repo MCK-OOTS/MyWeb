@@ -8,8 +8,13 @@ const router = createRouter({
       name: 'app',
       component: app
     },
+    {
+      path: '/:catchAll(.*)',
+      name: 'not-found',
+      component: () => import ('../components/NotFound.vue'),
+    },
 
-  ]
+  ],
 })
 
 export default router
