@@ -1,5 +1,5 @@
 <template>
-    
+    <!--프로젝트 영역-->
     <h1 class="project-header">Projects</h1>
 
     <div class="project-section" style="background-color: black" id="project">
