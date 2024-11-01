@@ -8,7 +8,7 @@
 
       <div class="project-card" v-for="project in projects" :key="project.id">
 
-        <h3>{{ project.title }}</h3>
+        <h3>{{ project.title }}</h3> <!-- 제목, 기간, 간단한 설명, 깃허브 링크-->
         <p class="duration">{{ project.duration }}</p>
         <p class="description">{{ project.description }}</p>
         <a :href="project.github" target="_blank" class="github-link" title="GitHub 바로가기">GitHub</a>
@@ -64,29 +64,25 @@
   };
   </script>
   
-  <style scoped lang="css">
+  <style scoped lang="scss">
 
     .project-header {
     text-align: center;
-
-    font-size: 2rem;
-    z-index: 1;
     }
 
   .project-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    display: flex; /* 가로 정렬 */
+    flex-wrap: wrap; /* 공간 오버되면 줄 바꿈 */
+    gap: 20px; /*간격*/
+    justify-content: center; /* 가운데 위치 */
     padding: 20px;
   
     .project-card {
       width: 300px; 
       padding: 20px;
-      border: 1px solid #e0e0e0;
       border-radius: 10px;
       background-color: white;
-      transition: transform 0.2s, box-shadow 0.2s;
+      transition: transform 0.2s, box-shadow 0.2s; /* 마우스 오버시 스타일 설정 */
   
       &:hover {
         transform: translateY(-10px);

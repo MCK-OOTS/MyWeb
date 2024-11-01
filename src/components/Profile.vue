@@ -1,4 +1,5 @@
 <template>
+  <!--프로필 영역-->
   <section id="profile" class="profile">
     <div class="profile-inner">
 
@@ -63,7 +64,7 @@
   &-content {
     display: flex;
 
-    .profile-description {
+    .profile-description { /* 위치 조정 */
       flex: 2;
       font-weight: 1000;
       line-height: 1.6;

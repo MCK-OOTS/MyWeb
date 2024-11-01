@@ -14,7 +14,7 @@
 
 <style>
   html, body {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* 부드러운 스크롤 스타일적용 */
     margin: 0;
     padding: 0;
 

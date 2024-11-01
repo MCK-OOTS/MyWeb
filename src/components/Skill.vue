@@ -1,4 +1,5 @@
 <template>
+    <!--스킬 영역-->
     <div class="skills" id="skill">
   
       <h2 class="skills-title">Skills</h2>
@@ -7,19 +8,19 @@
   
         <div class="skill-category" v-for="(category, index) in skills" :key="index">
   
-          <h3>{{ category.name }}</h3>
+          <h3>{{ category.name }}</h3> <!--Front-End, Back-End...-->
   
           <div v-for="(skill, idx) in category.skills" :key="idx" class="skill">
   
             <div class="skill-icon">
   
               <img :src="skill.icon"/>
-              <div class="tooltip">{{ skill.level }}</div>
+              <div class="tooltip">{{ skill.level }}</div> <!--Novice, Intermediate, Familiar -->
             </div>
   
-            <p class="skill-name">{{ skill.name }}</p> 
+            <p class="skill-name">{{ skill.name }}</p> <!-- Java, HTML, Git...-->
   
-            <div class="progress-bar">
+            <div class="progress-bar"> <!--그래프-->
               <div class="progress" :style="{ width: skill.progress + '%' }"></div>
               <span class="progress-tooltip">{{ skill.progress }}%</span>
             </div>
@@ -75,7 +76,7 @@
   };
   </script>
   
-  <style scoped lang="css">
+  <style scoped lang="scss">
   
   .skills {
     max-width: 900px;
@@ -91,7 +92,7 @@
     margin-bottom: 20px;
   }
   
-  .skills-content {
+  .skills-content { /* 가로정렬,  여백설정 , 공간 부족한 경우 줄 바꿈*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -104,7 +105,7 @@
    
   .skill {
     display: flex;
-    align-items: center;
+    align-items: center; /* 그래프 가운데 정렬 */
     margin-bottom: 10px; 
   }
   
@@ -122,13 +123,13 @@
       color: #fff;
       padding: 5px;
       border-radius: 5px;
-      z-index: 10;
-      opacity: 0;
-      transition: opacity 0.3s;
+      z-index: 10; /* 다른 요소 위로 표시 */
+      opacity: 0; /* 기본값으로 안보이게 설정 */
+      transition: opacity 0.3s; /* 천천히 나타나고 사라지기 */
     }
     
     &:hover .tooltip {
-      opacity: 1;
+      opacity: 1; /* 마우스 올리면 보이게 설정 */
     }
   }
   
