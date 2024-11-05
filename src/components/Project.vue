@@ -34,7 +34,7 @@ export default {
       projects: [
         {
           title: "티켓 구매 웹사이트",
-          image: "./img/ticket.png",
+          image: "img/ticket.png",
           duration: "2023.09.01 ~ 2023.12.11 (1인 개인)",
           description: "JSP를 사용한 웹사이트",
           github: "https://github.com/MCK-OOTS/2-2Tikect"
