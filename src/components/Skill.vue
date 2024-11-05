@@ -22,7 +22,7 @@
   
             <div class="progress-bar"> <!--그래프-->
               <div class="progress" :style="{ width: skill.progress + '%' }"></div>
-              <span class="progress-tooltip">{{ skill.progress }}%</span>
+              <span class="progress-tooltip">{{ skill.progress }}% </span>
             </div>
   
           </div>
@@ -47,27 +47,27 @@
           {
             name: "Front-End",
             skills: [
-              { name: "HTML", progress: 85, icon: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg", level: "Familiar" },
-              { name: "CSS", progress: 60, icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg", level: "Intermediate" },
-              { name: "JS", progress: 70, icon: "https://multishoring.com/wp-content/uploads/2024/04/JavaScript-Symbol.png", level: "Familiar" }
+              { name: "HTML", progress: 85, icon: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg", level: "Familiar"},
+              { name: "CSS", progress: 60, icon: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg", level: "Intermediate"},
+              { name: "JS", progress: 70, icon: "https://multishoring.com/wp-content/uploads/2024/04/JavaScript-Symbol.png", level: "Familiar"}
             ]
           },
           {
             name: "Back-End",
             skills: [
               { name: "Spring-boot", progress: 70, icon: "https://blog.kakaocdn.net/dn/NyGQe/btsIdOoWC8W/mythKXG4xkyW5GGIoAK0Ek/img.png", level: "Familiar" },
-              { name: "JSP", progress: 90, icon: "https://images.velog.io/images/xnfxnf97/post/d629debf-3bac-4d46-a93b-cd7999f81fc8/jsp.PNG", level: "Familiar" },
-              { name: "PHP", progress: 20, icon: "https://cdn.freebiesupply.com/logos/large/2x/php-logo-png-transparent.png", level: "Novice" }
+              { name: "JSP", progress: 90, icon: "https://images.velog.io/images/xnfxnf97/post/d629debf-3bac-4d46-a93b-cd7999f81fc8/jsp.PNG", level: "Familiar"},
+              { name: "PHP", progress: 20, icon: "https://cdn.freebiesupply.com/logos/large/2x/php-logo-png-transparent.png", level: "Novice"}
               
             ]
           },
           {
             name: "etc",
             skills: [
-              { name: "Git", progress: 35, icon: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg", level: "Novice" },
+              { name: "Git", progress: 40, icon: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg", level: "Intermediate"},
               { name: "Linux", progress: 50, icon: "https://velog.velcdn.com/images/whattsup_kim/post/e903d721-96bf-4349-aa02-7a607583863b/image.png",level:"Intermediate"},
-              { name: "MySQL", progress: 85, icon: "https://i.namu.wiki/i/vkGpBcmks1_NcJW0HUFa6jlwlM6h11B-8nxRRX4bYC703H4nLo7j4dQdRCC32gz8Q-BqRcAnQgFSXMjB8jPohg.svg", level: "Familiar" },
-              { name: "AWS", progress: 20, icon: "https://partner.zoom.us/wp-content/uploads/2022/12/2022_Zoom-AWS_Lockup_RGB-1-e1672857797889-1024x760.png", level: "Novice" }
+              { name: "MySQL", progress: 85, icon: "https://i.namu.wiki/i/vkGpBcmks1_NcJW0HUFa6jlwlM6h11B-8nxRRX4bYC703H4nLo7j4dQdRCC32gz8Q-BqRcAnQgFSXMjB8jPohg.svg", level: "Familiar"},
+              { name: "AWS", progress: 20, icon: "https://partner.zoom.us/wp-content/uploads/2022/12/2022_Zoom-AWS_Lockup_RGB-1-e1672857797889-1024x760.png", level: "Novice"}
             ]
           }
         ]
@@ -148,7 +148,7 @@
   
   .progress {
     height: 100%;
-    background-color: #DCCB78;
+    background-color: #666666;
   }
   
   h3 {

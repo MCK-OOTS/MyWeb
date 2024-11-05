@@ -9,9 +9,10 @@
         
             <nav class="header_nav" role="navigation" style="font-weight: 600;">
               <ul>
+                   <li><a href="#Aboutme">About Me</a></li>
                    <li><a href="#profile">profile</a></li>
-                   <li><a href="#skill">skill</a></li>
-                    <li><a href="#project">project</a></li>   
+                   <li><a href="#skill">skills</a></li>
+                   <li><a href="#project">projects</a></li>   
             </ul>
             </nav>
         </div>    
@@ -21,7 +22,9 @@
 <style lang="css">
 
 #header {
-  background-color: beige;
+  background-color: black;
+  color: white;
+  
 }
 
 .header_inner { 
@@ -49,6 +52,7 @@
 
 .header_nav li {/*목록 간격 띄우기 */
   margin-left: 1rem; 
+  color: #999999;
 }
 
 

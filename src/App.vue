@@ -1,5 +1,6 @@
 <script setup>
   import Header from './components/Header.vue';
+  import Aboutme from './components/Aboutme.vue';
   import Profile from './components/Profile.vue';
   import Skill from './components/Skill.vue';
   import Project from './components/Project.vue';
@@ -7,6 +8,7 @@
 
 <template>
   <Header />
+  <Aboutme/>
   <Profile />
   <Skill />
   <Project />
