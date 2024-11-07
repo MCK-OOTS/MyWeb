@@ -4,7 +4,7 @@
 
         <div class="header_inner">
             <h1>
-                나의 포트폴리오 사이트
+                민찬기 포트폴리오 사이트
             </h1>
         
             <nav class="header_nav" role="navigation" style="font-weight: 600;">
