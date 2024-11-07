@@ -62,17 +62,17 @@ export default {
         },
         {
           title: "빅데이터 분석",
-          image: "#",
+          image: "./img/ing.png",
           duration: "2024.10.31 ~ 2024.12.02 (1인 개인)",
           description: "진행 중",
-          github: ""
+          github: "https://github.com/MCK-OOTS"
         },
         {
           title: "무선센서 네트워크",
-          image: "#",
+          image: "./img/ing.png",
           duration: "2024.10.10 ~ 2024.12.03 (4인 팀)",
           description: "진행 중",
-          github: ""
+          github: "https://github.com/overwell24/wireless-network"
         }
           
 
