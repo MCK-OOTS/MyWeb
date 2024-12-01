@@ -61,17 +61,17 @@ export default {
           github: "https://github.com/MCK-OOTS/Online-Book-Platform"
         },
         {
-          title: "빅데이터 분석",
-          image: "./img/ing.png",
+          title: "출산율과 관련된 데이터 분석 및 시각화 프로젝트",
+          image: "./img/population.png",
           duration: "2024.10.31 ~ 2024.12.02 (1인 개인)",
-          description: "진행 중",
-          github: "https://github.com/MCK-OOTS"
+          description: "Colab사용, Kosis와 OECD API를 통해 데이터를 수집하고 pandas와 matplotlib을 통해 데이터 가공/정제 및 시각화",
+          github: "https://github.com/MCK-OOTS/DataVisualization"
         },
         {
-          title: "무선센서 네트워크",
-          image: "./img/ing.png",
+          title: "카페 혼잡도 파악 프로젝트",
+          image: "./img/mainpage.png",
           duration: "2024.10.10 ~ 2024.12.03 (4인 팀)",
-          description: "진행 중",
+          description: "압력센서(FSR), 카메라센서, WIFI모듈(ESP8266),아두이노, 라즈베리파이를 이용한 카페 혼잡도를 알려주는 웹/앱 프로젝트",
           github: "https://github.com/overwell24/wireless-network"
         }
           

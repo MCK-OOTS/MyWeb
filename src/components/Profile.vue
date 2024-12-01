@@ -23,7 +23,7 @@
         <div class="profile-info2">
           학력
           <ul>
-            <li>인하공업 전문대학교<br><span style="font-size: small;">(컴퓨터정보공학과, IT융합공학부)</span></li>
+            <li>인하공업 전문대학교<br><span style="font-size: small;">(컴퓨터정보공학과, IT융합공학부/4.21)</span></li>
             <li>서울전자고등학교<br><span style="font-size: small;">(컴퓨터 네트워크과)</span></li>
           </ul>
             경력
