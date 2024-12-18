@@ -41,7 +41,7 @@
             skills:[
                 {name: "Java", progress: 85, icon:"https://blog.kakaocdn.net/dn/lbnZd/btrKIyrrS6b/dzgw72HA8J29tetLTKUOg1/img.png", level:"Familiar"},
                 {name: "C", progress: 50, icon:"https://velog.velcdn.com/images/augus-xury/post/f3acd3d5-4b54-46dc-9427-c007c3b46a7d/image.png", level:"Intermediate"},
-                {name: "Python", progress: 50, icon:"https://blog.kakaocdn.net/dn/cn9zq6/btsaUkhGHdY/mIk7jxWPNmOrVftZkBbkTK/img.png", level:"Intermediate"}
+                {name: "Python", progress: 60, icon:"https://blog.kakaocdn.net/dn/cn9zq6/btsaUkhGHdY/mIk7jxWPNmOrVftZkBbkTK/img.png", level:"Intermediate"}
             ]
           },
           {
@@ -64,10 +64,10 @@
           {
             name: "etc",
             skills: [
-              { name: "Git", progress: 40, icon: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg", level: "Intermediate"},
-              { name: "Linux", progress: 50, icon: "https://velog.velcdn.com/images/whattsup_kim/post/e903d721-96bf-4349-aa02-7a607583863b/image.png",level:"Intermediate"},
+              { name: "Git", progress: 50, icon: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg", level: "Intermediate"},
+              { name: "Linux", progress: 55, icon: "https://velog.velcdn.com/images/whattsup_kim/post/e903d721-96bf-4349-aa02-7a607583863b/image.png",level:"Intermediate"},
               { name: "MySQL", progress: 85, icon: "https://i.namu.wiki/i/vkGpBcmks1_NcJW0HUFa6jlwlM6h11B-8nxRRX4bYC703H4nLo7j4dQdRCC32gz8Q-BqRcAnQgFSXMjB8jPohg.svg", level: "Familiar"},
-              { name: "AWS", progress: 20, icon: "https://partner.zoom.us/wp-content/uploads/2022/12/2022_Zoom-AWS_Lockup_RGB-1-e1672857797889-1024x760.png", level: "Novice"}
+              { name: "AWS", progress: 40, icon: "https://partner.zoom.us/wp-content/uploads/2022/12/2022_Zoom-AWS_Lockup_RGB-1-e1672857797889-1024x760.png", level: "Novice"}
             ]
           }
         ]

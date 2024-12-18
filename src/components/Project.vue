@@ -36,28 +36,28 @@ export default {
           title: "티켓 구매 웹사이트",
           image: "img/ticket.png",
           duration: "2023.09.01 ~ 2023.12.11 (1인 개인)",
-          description: "JSP를 사용한 웹사이트",
+          description: "JAVA, JSP를 사용한 예매횟수에 따른 우선예매권을 부여하는 웹 프로젝트",
           github: "https://github.com/MCK-OOTS/2-2Tikect"
         },
         {
           title: "여행지 추천 웹사이트",
           image: "./img/tour.png",
           duration: "2023.11.20 ~ 2023.12.11 (1인 개인)",
-          description: "mvc패턴을 활용한 JSP 프로젝트",
+          description: "JAVA, JSP를 활용해서 mvc패턴을 위주로 활용한 여행지 추천 웹 프로젝트",
           github: "https://github.com/MCK-OOTS/2-2TourList"
         },
         {
           title: "온라인 로또 프로그램",
           image: "./img/lotto.png",
           duration: "2023.11.06 ~ 2023.12.12 (2인 팀)",
-          description: "JAVA SWING과 웹 크롤링을 활용한 온라인 복권 프로그램",
+          description: "JAVA, JAVA SWING과 웹 크롤링을 활용한 온라인 복권 프로그램",
           github: "https://github.com/MCK-OOTS/2-2lotto"
         },
         {
           title: "온라인 독서 후기 및 중고거래 플랫폼",
           image: "./img/online-book.png",
           duration: "2024.03.06 ~ 2024.06.19 (1인 개인)",
-          description: "Spring-boot와 API를 사용해 결제 및 검색기능 구현",
+          description: "Spring-boot와 네이버 검색API,포트원 API를 활용하여 결제 및 검색기능 구현한 웹 프로젝트",
           github: "https://github.com/MCK-OOTS/Online-Book-Platform"
         },
         {
