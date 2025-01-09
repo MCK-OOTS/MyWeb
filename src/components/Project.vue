@@ -47,7 +47,7 @@ export default {
           github: "https://github.com/MCK-OOTS/2-2TourList"
         },
         {
-          title: "온라인 로또 프로그램",
+          title: "온라인 복권 프로그램",
           image: "./img/lotto.png",
           duration: "2023.11.06 ~ 2023.12.12 (2인 팀)",
           description: "JAVA, JAVA SWING과 웹 크롤링을 활용한 온라인 복권 프로그램",
